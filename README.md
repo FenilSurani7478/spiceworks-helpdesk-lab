@@ -50,3 +50,38 @@ A hands-on Help Desk ticketing lab using **Spiceworks Cloud Help Desk** to pract
 ---
 
 ## Repository Structure
+
+---
+
+## Deliverable (Documentation)
+- **PDF:** `deliverables/Spiceworks_HelpDesk_Lab_Deliverable.pdf`  
+Contains:
+- Overview of lab goals
+- Ticket lifecycle SOP
+- Ticket notes template
+- Completed sample ticket notes
+
+---
+
+## How To Reproduce (Quick Steps)
+1. Create an Organization (e.g., **Fenil**)
+2. Create Ticket Rules:
+   - Password keywords → **High priority**
+   - Printer keywords → **Medium priority**
+   - Ensure **Organization condition** is included
+3. Create test tickets to confirm rules trigger
+4. Add internal notes + public responses
+5. Move tickets through **Open → Waiting → Closed**
+6. Export documentation to PDF
+
+---
+
+## Notes
+- Spiceworks Cloud instances may expose different configuration options depending on plan/settings.
+- This lab focuses on **practical triage + documentation habits** used in real Help Desk roles.
+
+---
+
+## Author
+**Fenil Surani**  
+LinkedIn: https://www.linkedin.com/in/fenilsurani/
